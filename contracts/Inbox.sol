@@ -4,8 +4,8 @@ contract Inbox {
     
     string public message;
     
-    function Inbox(string InitialMessage) public {
-        message = InitialMessage;
+    function Inbox(string initialMessage) public {
+        message = initialMessage;
     }
     
     function setMessage(string newMessage) public {
